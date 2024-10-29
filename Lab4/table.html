@@ -8,9 +8,9 @@
 
     <body>
         <div class="header">
-            <a href=../Lab3/page1.html>Основная страница</a>      
-            <a href=../Lab3/page2.html>Позиционирование элементов</a>
-            <a href=./table.html>Таблица</a>
+            <a href="../index.html">Основная страница</a>      
+            <a href="../Lab3/page2.html">Позиционирование элементов</a>
+            <a href="./table.html">Таблица</a>
         </div>
 
         <table style="width: 98%;">
@@ -91,10 +91,26 @@
             </tr>
         </table>
 
+        <form method="post">
+            <fieldset>
+                <legend>Добавьте свою баночку!</legend>
+                <label for="year">Год:  </label>
+                <input type="text" id="year" name="year" min="1980" max="2024"><br>
+                <label for="volume">Объём банки:    </label>
+                <input type="text" id="volume" name="volume"><br>
+                <label for="stype">Тип засолки: </label>
+                <input type="text" id="stype" name="stype"><br>
+                <label for="sort">Сорт: </label>
+                <input type="text" id="sort" name="sort"><br>
+                <input type="submit" value="Внести в таблицу">
+            </fieldset>
+        </form>
+
         <img
-            src = "./images/cucumberps.jpg"
+            src="images/cucumbers.jpg"
             alt="Save yourself who can. They're on their way!"
         />
+
 
     </body>
 </html>
