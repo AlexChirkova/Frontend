@@ -60,3 +60,13 @@ img{
     font-size: xx-large;
     color: green;
 }
+
+form{
+    color: rgb(4, 49, 4);
+    font-size: larger;
+    margin: 20px;
+}
+
+legend{
+    font-weight:bold;
+}
